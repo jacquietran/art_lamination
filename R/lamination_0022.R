@@ -76,7 +76,7 @@ img <- magick::image_read(
 
 img_rescaled <- img |>
   magick::image_scale("2000x2000!") |>
-  magick::image_scale("6000x4000!") |>
+  magick::image_scale("4500x3000!") |>
   magick::image_noise(noisetype = "gaussian") |>
   magick::image_noise(noisetype = "gaussian")
 
